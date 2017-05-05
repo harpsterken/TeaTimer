@@ -1,0 +1,7 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <color name="about_background">#ccc695</color>
+    <color name="about_text">#000000</color>
+    <color name="alarm_background">#ccc695</color>
+    <color name="tea_list_listview">#ffffff</color>
+</resources>

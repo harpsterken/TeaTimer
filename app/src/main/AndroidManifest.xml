@@ -1,0 +1,40 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+      package="biz.bitinc.android.teatimer">
+	<supports-screens android:resizeable="true" />
+    <uses-permission android:name="android.permission.WAKE_LOCK" />
+    <uses-permission android:name="android.permission.READ_EXTERNAL_STORAGE" />
+
+    <application android:icon="@drawable/icon" android:label="@string/app_short_name" android:theme="@android:style/Theme.Holo">
+
+		<activity android:name="biz.bitinc.android.teatimer.TeaList" android:label="@string/app_short_name">
+			<intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+                <category android:name="android.intent.category.LAUNCHER" />
+			</intent-filter>
+		</activity>
+
+		<activity android:name="biz.bitinc.android.teatimer.TeaDetail" android:label="@string/app_short_name">
+            <intent-filter>
+				<action	android:name="biz.bitinc.android.teatimer.TEA_DETAIL" />
+				<category android:name="android.intent.category.DEFAULT" />
+            </intent-filter>
+        </activity>
+
+        <activity android:name="biz.bitinc.android.teatimer.TeaTimerAbout" android:label="@string/about_heading" android:theme="@android:style/Theme.Dialog">
+        <intent-filter>
+            <action	android:name="biz.bitinc.android.teatimer.TEA_TIMER_ABOUT" />
+            <category android:name="android.intent.category.DEFAULT" />
+        </intent-filter>
+        </activity>
+
+        <activity android:name="biz.bitinc.android.teatimer.TeaTimerAlarm" android:label="@string/alarm_heading" android:theme="@android:style/Theme.Dialog">
+            <intent-filter>
+                <action	android:name="biz.bitinc.android.teatimer.TEA_TIMER_ALARM" />
+                <category android:name="android.intent.category.DEFAULT" />
+            </intent-filter>
+        </activity>
+
+	</application>
+
+</manifest> 

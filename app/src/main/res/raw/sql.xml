@@ -1,0 +1,27 @@
+<sql>
+    <statement>
+        CREATE TABLE IF NOT EXISTS teas (
+        _id INTEGER PRIMARY KEY AUTOINCREMENT,
+        Type TEXT,
+        Description TEXT,
+        SteepTemp NUMERIC,
+        SteepTime NUMERIC,
+        AlarmSound TEXT
+        )
+    </statement>
+    <statement>INSERT INTO teas VALUES(1,"Black","Black tea is a type of tea that is more oxidized than oolong, green, or white teas. It is generally stronger in flavor than these less oxidized teas. Some of the more recognized varieties are: Assam, Darjeeling, and Ceylon.","200","180","Beeps")</statement>
+    <statement>INSERT INTO teas VALUES(2,"Blooming","Each bloom consists of a bundle of dried tea leaves wrapped around one or more dried flowers (like globe amaranth, chrysanthemum, jasmine, lily, hibiscus, and osmanthus). When steeped, the bundle expands and unfurls in a process that emulates a blooming flower.","180","210","Beeps")</statement>
+    <statement>INSERT INTO teas VALUES(3,"Green (Chinese)","Made from Camellia sinensis leaves that have not undergone the same withering and oxidation that is used when processing them into oolong and black tea. Its origination is China, but production has spread to many countries in Asia.","175","60","Beeps")</statement>
+    <statement>INSERT INTO teas VALUES(4,"Green (Japanese)","Japanese green teas are mainly made from Yabukita, a cultivar of the Camellia sinensis plant. Japanese green teas are steamed giving them a more vegetative or leafy taste than Chinese green tea. The exception is Hojicha, a Japanese roasted tea.","165","60","Beeps")</statement>
+    <statement>INSERT INTO teas VALUES(5,"Green-Flavored","Green flavored teas require more steeping time than an unflavored green tea so that the fruits and/or spices used in the tea can release their flavor and bouquet.","120","120","Beeps")</statement>
+    <statement>INSERT INTO teas VALUES(6,"Herbal","Made from an infusion or extraction of herbs, spices, or other plant material, and usually does not contain caffeine. These drinks are distinguished from true teas, which are prepared from the cured leaves of the tea plant.","208","300","Beeps")</statement>
+    <statement>INSERT INTO teas VALUES(7,"Oolong", "Oolong is a traditional Chinese tea produced through a unique process including withering the plant under the strong sun and oxidation before curling and twisting. Most Oolong teas, especially those of fine quality, involve unique tea plant cultivars.","195","180","Beeps")</statement>
+    <statement>INSERT INTO teas VALUES(8,"Rooibos","Rooibos or Red Bush tea comes not from the tea plant but from the Rooibos plant and does not contain caffeine. Rooibos is usually grown in the Cederberg, a small mountainous area in the region of the Western Cape province of South Africa.","208","300","Beeps")</statement>
+    <statement>INSERT INTO teas VALUES(9,"White","Considered to be one of the more delicate tea varieties due to its minimal processing. White tea is harvested before the tea plant’s leaves open fully, when the young buds are still covered by fine white hairs, hence the name “white” tea.","175","240","Beeps")</statement>
+    <statement>INSERT INTO teas VALUES(10,"Yerba Mate","Made from the naturally caffeinated leaves of the South American rainforest holly tree. The flavor of brewed mate resembles an infusion of vegetables, herbs, and grass and is reminiscent of some varieties of green tea.","208","300","Beeps")</statement>
+    <statement>INSERT INTO teas VALUES(11,"1 Minute Timer","Generic 1 Minute Timer","0","60","Beeps")</statement>
+    <statement>INSERT INTO teas VALUES(12,"2 Minute Timer","Generic 2 Minute Timer","0","120","Beeps")</statement>
+    <statement>INSERT INTO teas VALUES(13,"3 Minute Timer","Generic 3 Minute Timer","0","180","Beeps")</statement>
+    <statement>INSERT INTO teas VALUES(14,"4 Minute Timer","Generic 4 Minute Timer","0","240","Beeps")</statement>
+    <statement>INSERT INTO teas VALUES(15,"5 Minute Timer","Generic 5 Minute Timer","0","300","Beeps")</statement>
+</sql>

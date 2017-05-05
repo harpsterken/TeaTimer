@@ -1,0 +1,105 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    android:id="@+id/widget64"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:fillViewport="true">
+
+    <LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:background="#ccc695"
+        android:gravity="center_horizontal"
+        android:orientation="vertical"
+        android:weightSum="1">
+
+        <TextView
+            android:id="@+id/TeaListDetail"
+            android:layout_width="match_parent"
+            android:layout_height="36sp"
+            android:background="#89995f"
+            android:elevation="4sp"
+            android:gravity="center_horizontal"
+            android:padding="5dip"
+            android:text="@string/timer"
+            android:textColor="#00000f"
+            android:textSize="20sp"
+            android:textStyle="bold" />
+
+        <TextView
+            android:id="@+id/TeasType"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="20sp"
+            android:gravity="center_horizontal"
+            android:text="@string/teatype"
+            android:textColor="#000000"
+            android:textSize="18sp" />
+
+        <TextView
+            android:id="@+id/TeasDesc_label"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="20sp"
+            android:gravity="center_horizontal"
+            android:text="@string/teadescription"
+            android:textColor="#000000"
+            android:textSize="18sp" />
+
+        <TextView
+            android:id="@+id/TeasDesc"
+            android:layout_width="match_parent"
+            android:layout_height="0dp"
+            android:layout_marginEnd="20sp"
+            android:layout_marginStart="20sp"
+            android:layout_marginTop="5sp"
+            android:layout_weight="1.0"
+            android:gravity="fill_horizontal"
+            android:textColor="#000000"
+            android:textSize="15sp" />
+
+        <TextView
+            android:id="@+id/TeasSteepTemp"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="20sp"
+            android:layout_marginBottom="10sp"
+            android:gravity="center_horizontal"
+            android:text="@string/steeptemp"
+            android:textColor="#000000"
+            android:textSize="18sp" />
+
+        <TextView
+            android:id="@+id/TeasSteepTime_label"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="20sp"
+            android:gravity="center_horizontal"
+            android:text="@string/steeptime"
+            android:textColor="#000000"
+            android:textSize="18sp" />
+
+        <TextView
+            android:id="@+id/TeasSteepTime"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginBottom="25sp"
+            android:gravity="center_horizontal"
+            android:textColor="#323232"
+            android:textSize="65sp"
+            android:typeface="sans" />
+
+        <Button
+            android:id="@+id/StartStopBtn"
+            android:layout_width="160sp"
+            android:layout_height="40sp"
+            android:layout_marginBottom="20sp"
+            android:background="@drawable/buttonshape"
+            android:enabled="true"
+            android:onClick="startstopbtn_handler"
+            android:text="@string/start"
+            android:textColor="#000000"
+            android:textSize="25sp" />
+
+    </LinearLayout>
+</ScrollView>

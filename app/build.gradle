@@ -1,0 +1,34 @@
+apply plugin: 'com.android.application'
+android {
+    compileSdkVersion 25
+    buildToolsVersion '25'
+    defaultConfig {
+        applicationId "biz.bitinc.android.teatimer"
+        versionCode 3
+        versionName "1.0.1"
+
+        minSdkVersion 19
+        targetSdkVersion 25
+    }
+    buildTypes {
+        release {
+            minifyEnabled false
+            proguardFiles getDefaultProguardFile('proguard-android.txt'), 'proguard-rules.txt'
+        }
+    }
+
+    compileOptions {
+        sourceCompatibility JavaVersion.VERSION_1_7
+        targetCompatibility JavaVersion.VERSION_1_7
+    }
+
+    productFlavors {
+        apiVersion25 {
+            minSdkVersion 19
+            compileSdkVersion 25
+        }
+    }
+}
+
+dependencies {
+}

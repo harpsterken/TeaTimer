@@ -1,0 +1,28 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+	android:layout_width="match_parent"
+	 android:layout_height="match_parent"
+	 android:textColor="#000000"
+	 android:background="#5b663f"
+	android:orientation="vertical">
+
+	<TextView
+		android:id="@+id/TeaListHeader"
+		android:layout_height="36sp"
+		android:layout_width="match_parent"
+		android:text="@string/selecttea"
+		android:textSize="20sp"
+		android:textColor="#00000f"
+		android:textStyle="bold"
+		android:gravity="center_horizontal"
+		android:background="#89995f"
+		android:elevation="4sp"
+		android:padding="5dip" />
+
+	<ListView
+		android:id="@android:id/list"
+		android:layout_height="match_parent"
+	 	android:layout_width="match_parent"
+	 	android:cacheColorHint="#00000000"/>
+
+</LinearLayout>
